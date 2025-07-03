@@ -1,0 +1,46 @@
+# Ignore build output
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Visual Studio/JetBrains settings
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core secrets
+secrets.json
+appsettings.Development.json
+
+# Publish output
+publish/
+out/
+
+# Rider
+.idea/
+
+# Node modules (if using frontend stuff like React or Tailwind)
+node_modules/
+
+# Logs and database
+*.log
+*.mdf
+*.ldf
+
+# System/macOS/Windows files
+.DS_Store
+Thumbs.db
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Others
+.env
